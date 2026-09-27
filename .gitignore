@@ -1,0 +1,15 @@
+# Claude Code local-only overrides
+.claude/settings.local.json
+
+# Local-only secrets and config overrides
+**/appsettings.*.local.json
+secrets.json
+
+# Build output and tooling
+bin/
+obj/
+.vs/
+TestResults/
+node_modules/
+.angular/
+dist/
